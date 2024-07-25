@@ -1,0 +1,19 @@
+package org.zerock.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.zerock.domain.BoardVO;
+
+import lombok.AllArgsConstructor;
+
+
+@Service
+@AllArgsConstructor
+public class BoardServiceImpl implements BoardService{@Override
+	public List<BoardVO> BoardList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
